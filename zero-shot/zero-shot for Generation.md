@@ -9,5 +9,4 @@
 1. 使用 变分之编码器对图像进行编码，对其进行压缩成32x32的图像token，并且每个元素都仅有8192个可能的数值。大大减少了transfomer的压力。
 2. 第二个阶段就是将文本token和图像token进行连接形成一个新的向量送入transformer。
 
-
 ### Stage one: learing the visual codebook
